@@ -1,0 +1,6 @@
+framework module Pods_RobRoo {
+  umbrella header "Pods-RobRoo-umbrella.h"
+
+  export *
+  module * { export * }
+}

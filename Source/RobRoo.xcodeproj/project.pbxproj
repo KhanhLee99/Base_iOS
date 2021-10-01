@@ -80,6 +80,8 @@
 		1C55ECB927072517004DE095 /* Skeleton in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECB827072517004DE095 /* Skeleton */; };
 		1C55ECBB27074AB2004DE095 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECBA27074AB2004DE095 /* BaseTabbarController.swift */; };
 		1C55ECBD27074C71004DE095 /* UIApplication.Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECBC27074C71004DE095 /* UIApplication.Ex.swift */; };
+		1C55ECC727078484004DE095 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECC527078484004DE095 /* TestView.xib */; };
+		1C55ECC827078484004DE095 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECC627078484004DE095 /* TestView.swift */; };
 		912C43112C382DFEAE53FFDD /* Pods_RobRoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED23FBCAA0715A9C92720F59 /* Pods_RobRoo.framework */; };
 /* End PBXBuildFile section */
 
@@ -159,6 +161,8 @@
 		1C55ECB827072517004DE095 /* Skeleton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skeleton; sourceTree = "<group>"; };
 		1C55ECBA27074AB2004DE095 /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
 		1C55ECBC27074C71004DE095 /* UIApplication.Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.Ex.swift; sourceTree = "<group>"; };
+		1C55ECC527078484004DE095 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		1C55ECC627078484004DE095 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		2CD76DDEC4B0C147FAD9DE09 /* Pods-RobRoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobRoo.release.xcconfig"; path = "Target Support Files/Pods-RobRoo/Pods-RobRoo.release.xcconfig"; sourceTree = "<group>"; };
 		53535C8EAE76437763F7EF54 /* Pods-RobRoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobRoo.debug.xcconfig"; path = "Target Support Files/Pods-RobRoo/Pods-RobRoo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED23FBCAA0715A9C92720F59 /* Pods_RobRoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RobRoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -396,6 +400,7 @@
 		18F60B8A264B5E3C00BF99F6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C55ECC427078445004DE095 /* Test */,
 				1C0544A627021043004D2F83 /* Nav */,
 				1C55ECA827072303004DE095 /* BaseControl */,
 			);
@@ -457,6 +462,15 @@
 				1C55ECA62706FD59004DE095 /* NetworkServices */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		1C55ECC427078445004DE095 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1C55ECC527078484004DE095 /* TestView.xib */,
+				1C55ECC627078484004DE095 /* TestView.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		97DFACE0E0F5D1B8BBF57149 /* Frameworks */ = {
@@ -540,6 +554,7 @@
 				18F60B7C264B575300BF99F6 /* Kanit-SemiBoldItalic.ttf in Resources */,
 				18F60B0E264B563600BF99F6 /* CodingStyleViewController.xib in Resources */,
 				18F60B78264B575300BF99F6 /* Kanit-ExtraLight.ttf in Resources */,
+				1C55ECC727078484004DE095 /* TestView.xib in Resources */,
 				18F60B6A264B575300BF99F6 /* Kanit-ExtraBold.ttf in Resources */,
 				18F60BAC264B61F600BF99F6 /* Localizable.strings in Resources */,
 				1C55ECA72706FD59004DE095 /* NetworkServices in Resources */,
@@ -657,6 +672,7 @@
 				18F60B22264B563600BF99F6 /* MultiActivityIndicator.swift in Sources */,
 				18F60B20264B563600BF99F6 /* PageActivityIndicator.swift in Sources */,
 				1C55ECB72707248A004DE095 /* ALRT.swift in Sources */,
+				1C55ECC827078484004DE095 /* TestView.swift in Sources */,
 				18F60B16264B563600BF99F6 /* ViewModelAssembly.swift in Sources */,
 				18F60BB1264B627700BF99F6 /* Language.swift in Sources */,
 				18F60B0F264B563600BF99F6 /* DemoCell.swift in Sources */,

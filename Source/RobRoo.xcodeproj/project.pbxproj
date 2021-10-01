@@ -67,6 +67,17 @@
 		1C0544A927021054004D2F83 /* NavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C0544A727021054004D2F83 /* NavView.xib */; };
 		1C0544AA27021054004D2F83 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0544A827021054004D2F83 /* NavView.swift */; };
 		1C0544AE270218BD004D2F83 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0544AD270218BD004D2F83 /* AppConstants.swift */; };
+		1C55ECA12706BF6B004DE095 /* List in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECA02706BF6B004DE095 /* List */; };
+		1C55ECA52706FC72004DE095 /* BaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECA42706FC72004DE095 /* BaseServices.swift */; };
+		1C55ECA72706FD59004DE095 /* NetworkServices in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECA62706FD59004DE095 /* NetworkServices */; };
+		1C55ECA927072303004DE095 /* BaseControl in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECA827072303004DE095 /* BaseControl */; };
+		1C55ECAB270723D2004DE095 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECAA270723D2004DE095 /* Basic.swift */; };
+		1C55ECAD270723F6004DE095 /* RegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECAC270723F6004DE095 /* RegEx.swift */; };
+		1C55ECAF270723FD004DE095 /* AsyncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECAE270723FD004DE095 /* AsyncHelper.swift */; };
+		1C55ECB127072404004DE095 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECB027072404004DE095 /* UserDefaults.swift */; };
+		1C55ECB327072453004DE095 /* SwiftEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECB227072453004DE095 /* SwiftEventBus.swift */; };
+		1C55ECB72707248A004DE095 /* ALRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECB62707248A004DE095 /* ALRT.swift */; };
+		1C55ECB927072517004DE095 /* Skeleton in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECB827072517004DE095 /* Skeleton */; };
 		912C43112C382DFEAE53FFDD /* Pods_RobRoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED23FBCAA0715A9C92720F59 /* Pods_RobRoo.framework */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +144,17 @@
 		1C0544A727021054004D2F83 /* NavView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavView.xib; sourceTree = "<group>"; };
 		1C0544A827021054004D2F83 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		1C0544AD270218BD004D2F83 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		1C55ECA02706BF6B004DE095 /* List */ = {isa = PBXFileReference; lastKnownFileType = folder; path = List; sourceTree = "<group>"; };
+		1C55ECA42706FC72004DE095 /* BaseServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseServices.swift; sourceTree = "<group>"; };
+		1C55ECA62706FD59004DE095 /* NetworkServices */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NetworkServices; sourceTree = "<group>"; };
+		1C55ECA827072303004DE095 /* BaseControl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BaseControl; sourceTree = "<group>"; };
+		1C55ECAA270723D2004DE095 /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
+		1C55ECAC270723F6004DE095 /* RegEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegEx.swift; sourceTree = "<group>"; };
+		1C55ECAE270723FD004DE095 /* AsyncHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncHelper.swift; sourceTree = "<group>"; };
+		1C55ECB027072404004DE095 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		1C55ECB227072453004DE095 /* SwiftEventBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEventBus.swift; sourceTree = "<group>"; };
+		1C55ECB62707248A004DE095 /* ALRT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALRT.swift; sourceTree = "<group>"; };
+		1C55ECB827072517004DE095 /* Skeleton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skeleton; sourceTree = "<group>"; };
 		2CD76DDEC4B0C147FAD9DE09 /* Pods-RobRoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobRoo.release.xcconfig"; path = "Target Support Files/Pods-RobRoo/Pods-RobRoo.release.xcconfig"; sourceTree = "<group>"; };
 		53535C8EAE76437763F7EF54 /* Pods-RobRoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobRoo.debug.xcconfig"; path = "Target Support Files/Pods-RobRoo/Pods-RobRoo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED23FBCAA0715A9C92720F59 /* Pods_RobRoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RobRoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +198,8 @@
 				18F60AED264B563600BF99F6 /* Rx */,
 				18F60BAF264B626500BF99F6 /* Utils */,
 				18F60B8A264B5E3C00BF99F6 /* UI */,
+				1C55ECA22706C386004DE095 /* Model */,
+				1C55ECA32706C3BC004DE095 /* Service */,
 				18F60B06264B563600BF99F6 /* Scenes */,
 				18F60ADD264B563500BF99F6 /* CodingStyle */,
 				18F60AE6264B563600BF99F6 /* Resources */,
@@ -239,6 +263,7 @@
 		18F60AED264B563600BF99F6 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
+				1C55ECB827072517004DE095 /* Skeleton */,
 				18F60AEE264B563600BF99F6 /* UtilClass */,
 			);
 			path = Rx;
@@ -247,6 +272,7 @@
 		18F60AEE264B563600BF99F6 /* UtilClass */ = {
 			isa = PBXGroup;
 			children = (
+				1C55ECA02706BF6B004DE095 /* List */,
 				18F60AEF264B563600BF99F6 /* ViewModel */,
 				18F60AFB264B563600BF99F6 /* Extensions */,
 				18F60B02264B563600BF99F6 /* Model */,
@@ -366,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				1C0544A627021043004D2F83 /* Nav */,
+				1C55ECA827072303004DE095 /* BaseControl */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -399,9 +426,31 @@
 		1C0544AB270211E5004D2F83 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				1C55ECB62707248A004DE095 /* ALRT.swift */,
 				18F60BB0264B627700BF99F6 /* Language.swift */,
+				1C55ECAA270723D2004DE095 /* Basic.swift */,
+				1C55ECAC270723F6004DE095 /* RegEx.swift */,
+				1C55ECAE270723FD004DE095 /* AsyncHelper.swift */,
+				1C55ECB027072404004DE095 /* UserDefaults.swift */,
+				1C55ECB227072453004DE095 /* SwiftEventBus.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		1C55ECA22706C386004DE095 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C55ECA32706C3BC004DE095 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C55ECA42706FC72004DE095 /* BaseServices.swift */,
+				1C55ECA62706FD59004DE095 /* NetworkServices */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		97DFACE0E0F5D1B8BBF57149 /* Frameworks */ = {
@@ -487,7 +536,9 @@
 				18F60B78264B575300BF99F6 /* Kanit-ExtraLight.ttf in Resources */,
 				18F60B6A264B575300BF99F6 /* Kanit-ExtraBold.ttf in Resources */,
 				18F60BAC264B61F600BF99F6 /* Localizable.strings in Resources */,
+				1C55ECA72706FD59004DE095 /* NetworkServices in Resources */,
 				18F60B70264B575300BF99F6 /* Kanit-SemiBold.ttf in Resources */,
+				1C55ECB927072517004DE095 /* Skeleton in Resources */,
 				18F60AD6264B532400BF99F6 /* LaunchScreen.storyboard in Resources */,
 				18F60B6F264B575300BF99F6 /* Kanit-Light.ttf in Resources */,
 				18F60B71264B575300BF99F6 /* Kanit-Thin.ttf in Resources */,
@@ -495,9 +546,11 @@
 				18F60B76264B575300BF99F6 /* Kanit-Medium.ttf in Resources */,
 				18F60B6B264B575300BF99F6 /* Kanit-ThinItalic.ttf in Resources */,
 				18F60B77264B575300BF99F6 /* Kanit-BoldItalic.ttf in Resources */,
+				1C55ECA927072303004DE095 /* BaseControl in Resources */,
 				18F60B74264B575300BF99F6 /* Kanit-Italic.ttf in Resources */,
 				18F60B13264B563600BF99F6 /* Assets.xcassets in Resources */,
 				18F60B6E264B575300BF99F6 /* Kanit-BlackItalic.ttf in Resources */,
+				1C55ECA12706BF6B004DE095 /* List in Resources */,
 				18F60B7A264B575300BF99F6 /* Kanit-Bold.ttf in Resources */,
 				18F60B72264B575300BF99F6 /* Kanit-LightItalic.ttf in Resources */,
 				1C0544A927021054004D2F83 /* NavView.xib in Resources */,
@@ -557,23 +610,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F60B18264B563600BF99F6 /* Property.swift in Sources */,
+				1C55ECB327072453004DE095 /* SwiftEventBus.swift in Sources */,
 				18F60B1F264B563600BF99F6 /* ViewModel+GetList.swift in Sources */,
+				1C55ECAB270723D2004DE095 /* Basic.swift in Sources */,
 				18F60B19264B563600BF99F6 /* ScreenLoadingType.swift in Sources */,
 				18F60B23264B563600BF99F6 /* Driver+.swift in Sources */,
 				18F60B2D264B563600BF99F6 /* BaseViewController.swift in Sources */,
 				18F60B24264B563600BF99F6 /* ObservableType+.swift in Sources */,
 				18F60B1E264B563600BF99F6 /* ViewModel+.swift in Sources */,
 				18F60B17264B563600BF99F6 /* DIAppContainer.swift in Sources */,
+				1C55ECAD270723F6004DE095 /* RegEx.swift in Sources */,
 				18F60B2E264B563600BF99F6 /* BaseNavigationController.swift in Sources */,
 				18F60B21264B563600BF99F6 /* ViewModel+GetPage.swift in Sources */,
 				18F60B15264B563600BF99F6 /* HelperAssembly.swift in Sources */,
 				18F60B1C264B563600BF99F6 /* ActivityIndicator.swift in Sources */,
 				18F60B1D264B563600BF99F6 /* Bindable.swift in Sources */,
 				1C0544AA27021054004D2F83 /* NavView.swift in Sources */,
+				1C55ECB127072404004DE095 /* UserDefaults.swift in Sources */,
 				18F60B0D264B563600BF99F6 /* CodingStyleViewController.swift in Sources */,
 				18F60B12264B563600BF99F6 /* AppController.swift in Sources */,
 				18F60B1B264B563600BF99F6 /* ViewModel.swift in Sources */,
 				18F60B29264B563600BF99F6 /* PagingInfo.swift in Sources */,
+				1C55ECA52706FC72004DE095 /* BaseServices.swift in Sources */,
 				18F60B14264B563600BF99F6 /* ViewControllerAssembly.swift in Sources */,
 				1C0544AE270218BD004D2F83 /* AppConstants.swift in Sources */,
 				18F60B27264B563600BF99F6 /* Optional+.swift in Sources */,
@@ -587,8 +645,10 @@
 				18F60B11264B563600BF99F6 /* CodingStyleViewModel.swift in Sources */,
 				18F60B2A264B563600BF99F6 /* UIViewController+Debug.swift in Sources */,
 				18F60B26264B563600BF99F6 /* MKMapView+Rx.swift in Sources */,
+				1C55ECAF270723FD004DE095 /* AsyncHelper.swift in Sources */,
 				18F60B22264B563600BF99F6 /* MultiActivityIndicator.swift in Sources */,
 				18F60B20264B563600BF99F6 /* PageActivityIndicator.swift in Sources */,
+				1C55ECB72707248A004DE095 /* ALRT.swift in Sources */,
 				18F60B16264B563600BF99F6 /* ViewModelAssembly.swift in Sources */,
 				18F60BB1264B627700BF99F6 /* Language.swift in Sources */,
 				18F60B0F264B563600BF99F6 /* DemoCell.swift in Sources */,

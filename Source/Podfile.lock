@@ -5,6 +5,10 @@ PODS:
   - Differentiator (5.0.0)
   - ESTabBarController-swift (2.8.0)
   - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.3.0)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
   - Reusable (4.1.1):
     - Reusable/Storyboard (= 4.1.1)
     - Reusable/View (= 4.1.1)
@@ -60,6 +64,8 @@ DEPENDENCIES:
   - Agrume
   - ESTabBarController-swift
   - IQKeyboardManagerSwift
+  - Kingfisher
+  - KRProgressHUD
   - Reusable
   - RxCocoa
   - RxDataSources
@@ -80,6 +86,9 @@ SPEC REPOS:
     - Differentiator
     - ESTabBarController-swift
     - IQKeyboardManagerSwift
+    - Kingfisher
+    - KRActivityIndicatorView
+    - KRProgressHUD
     - Reusable
     - RxCocoa
     - RxDataSources
@@ -101,6 +110,9 @@ SPEC CHECKSUMS:
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
   Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
   RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
@@ -116,6 +128,6 @@ SPEC CHECKSUMS:
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
 
-PODFILE CHECKSUM: 51dd558841730e1347302659972c64716269e2c0
+PODFILE CHECKSUM: dc7823f0b118478714f9f1006378232f74b4ba83
 
 COCOAPODS: 1.10.1

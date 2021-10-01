@@ -17,6 +17,9 @@ def pods
     pod 'Swinject'
     pod 'SwinjectAutoregistration'
     pod 'RxDataSources'
+    pod 'KRProgressHUD'
+    pod 'SwiftEventBus'
+    pod 'Kingfisher'
 end
 
 target 'RobRoo' do

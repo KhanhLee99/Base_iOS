@@ -9,7 +9,17 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    static let shared: AppDelegate = {
+        guard let delegate = UIApplication.shared.delegate as? AppDelegate else {
+            fatalError("Cannot cast the AppDelegate")
+        }
+        return delegate
+    }()
+    
     var window: UIWindow?
+    var tabVC: BaseTabbarController?
+    var mainNav: BaseNavigationController?
     
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         let window = UIWindow(frame: UIScreen.main.bounds)
@@ -20,8 +30,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         AppController.me.config()
-        AppController.coor.transition(to: .codingStyle, type: .root)
+        setRootTabbar()
         return true
     }
 }
 
+extension AppDelegate {
+    func setRootTabbar() {
+        tabVC = BaseTabbarController()
+        mainNav = BaseNavigationController(rootViewController: tabVC!)
+        window?.rootViewController = mainNav
+        window?.makeKeyAndVisible()
+    }
+}

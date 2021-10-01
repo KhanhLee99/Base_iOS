@@ -63,7 +63,7 @@
 		18F60B7C264B575300BF99F6 /* Kanit-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18F60B69264B575300BF99F6 /* Kanit-SemiBoldItalic.ttf */; };
 		18F60BAC264B61F600BF99F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F60BAE264B61F600BF99F6 /* Localizable.strings */; };
 		18F60BB1264B627700BF99F6 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F60BB0264B627700BF99F6 /* Language.swift */; };
-		1C0544A527020FDF004D2F83 /* NibExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0544A427020FDF004D2F83 /* NibExtention.swift */; };
+		1C0544A527020FDF004D2F83 /* Nib.Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0544A427020FDF004D2F83 /* Nib.Ex.swift */; };
 		1C0544A927021054004D2F83 /* NavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C0544A727021054004D2F83 /* NavView.xib */; };
 		1C0544AA27021054004D2F83 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0544A827021054004D2F83 /* NavView.swift */; };
 		1C0544AE270218BD004D2F83 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0544AD270218BD004D2F83 /* AppConstants.swift */; };
@@ -78,6 +78,8 @@
 		1C55ECB327072453004DE095 /* SwiftEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECB227072453004DE095 /* SwiftEventBus.swift */; };
 		1C55ECB72707248A004DE095 /* ALRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECB62707248A004DE095 /* ALRT.swift */; };
 		1C55ECB927072517004DE095 /* Skeleton in Resources */ = {isa = PBXBuildFile; fileRef = 1C55ECB827072517004DE095 /* Skeleton */; };
+		1C55ECBB27074AB2004DE095 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECBA27074AB2004DE095 /* BaseTabbarController.swift */; };
+		1C55ECBD27074C71004DE095 /* UIApplication.Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55ECBC27074C71004DE095 /* UIApplication.Ex.swift */; };
 		912C43112C382DFEAE53FFDD /* Pods_RobRoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED23FBCAA0715A9C92720F59 /* Pods_RobRoo.framework */; };
 /* End PBXBuildFile section */
 
@@ -140,7 +142,7 @@
 		18F60B69264B575300BF99F6 /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		18F60BAD264B61F600BF99F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18F60BB0264B627700BF99F6 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
-		1C0544A427020FDF004D2F83 /* NibExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibExtention.swift; sourceTree = "<group>"; };
+		1C0544A427020FDF004D2F83 /* Nib.Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nib.Ex.swift; sourceTree = "<group>"; };
 		1C0544A727021054004D2F83 /* NavView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavView.xib; sourceTree = "<group>"; };
 		1C0544A827021054004D2F83 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		1C0544AD270218BD004D2F83 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
@@ -155,6 +157,8 @@
 		1C55ECB227072453004DE095 /* SwiftEventBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEventBus.swift; sourceTree = "<group>"; };
 		1C55ECB62707248A004DE095 /* ALRT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALRT.swift; sourceTree = "<group>"; };
 		1C55ECB827072517004DE095 /* Skeleton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skeleton; sourceTree = "<group>"; };
+		1C55ECBA27074AB2004DE095 /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		1C55ECBC27074C71004DE095 /* UIApplication.Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.Ex.swift; sourceTree = "<group>"; };
 		2CD76DDEC4B0C147FAD9DE09 /* Pods-RobRoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobRoo.release.xcconfig"; path = "Target Support Files/Pods-RobRoo/Pods-RobRoo.release.xcconfig"; sourceTree = "<group>"; };
 		53535C8EAE76437763F7EF54 /* Pods-RobRoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobRoo.debug.xcconfig"; path = "Target Support Files/Pods-RobRoo/Pods-RobRoo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED23FBCAA0715A9C92720F59 /* Pods_RobRoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RobRoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,6 +355,7 @@
 			children = (
 				18F60B0B264B563600BF99F6 /* BaseViewController.swift */,
 				18F60B0C264B563600BF99F6 /* BaseNavigationController.swift */,
+				1C55ECBA27074AB2004DE095 /* BaseTabbarController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -409,7 +414,8 @@
 		1C0544A327020FA2004D2F83 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1C0544A427020FDF004D2F83 /* NibExtention.swift */,
+				1C0544A427020FDF004D2F83 /* Nib.Ex.swift */,
+				1C55ECBC27074C71004DE095 /* UIApplication.Ex.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -634,13 +640,15 @@
 				1C55ECA52706FC72004DE095 /* BaseServices.swift in Sources */,
 				18F60B14264B563600BF99F6 /* ViewControllerAssembly.swift in Sources */,
 				1C0544AE270218BD004D2F83 /* AppConstants.swift in Sources */,
+				1C55ECBD27074C71004DE095 /* UIApplication.Ex.swift in Sources */,
 				18F60B27264B563600BF99F6 /* Optional+.swift in Sources */,
 				18F60B1A264B563600BF99F6 /* ErrorTracker.swift in Sources */,
-				1C0544A527020FDF004D2F83 /* NibExtention.swift in Sources */,
+				1C0544A527020FDF004D2F83 /* Nib.Ex.swift in Sources */,
 				18F60B25264B563600BF99F6 /* CLLocationManager+Rx.swift in Sources */,
 				18F60B28264B563600BF99F6 /* ObservableType+SyncSequence.swift in Sources */,
 				18F60B2B264B563600BF99F6 /* Scene.swift in Sources */,
 				18F60B2C264B563600BF99F6 /* SceneCoordinator.swift in Sources */,
+				1C55ECBB27074AB2004DE095 /* BaseTabbarController.swift in Sources */,
 				18F60ACA264B532300BF99F6 /* AppDelegate.swift in Sources */,
 				18F60B11264B563600BF99F6 /* CodingStyleViewModel.swift in Sources */,
 				18F60B2A264B563600BF99F6 /* UIViewController+Debug.swift in Sources */,
